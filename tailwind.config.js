@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'readex-pro': ['"Readex Pro"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
