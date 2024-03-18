@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 import Login from "./pages/Login";
+import Timesheet from "./pages/consultant/Timesheet";
 import "bootstrap/dist/css/bootstrap.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
@@ -9,11 +9,11 @@ import "./index.css";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Login />,
   },
   {
-    path: "login",
-    element: <Login />,
+    path: "/consultant/timesheet",
+    element: <Timesheet />,
   },
 ]);
 
