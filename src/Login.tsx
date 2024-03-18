@@ -5,7 +5,7 @@ function MyPlaceholder({ title }: { title: string }) {
 }
 function MyInput({ title }: { title: string }) {
     return (
-        <input className="border border-gray-300 rounded-md p-2 mb-2 w-full bg-indigo-100" placeholder={title}/>
+        <input  placeholder={title}/>
     );
 }
 
