@@ -6,7 +6,7 @@ export default function Login() {
     <div className="bg-white flex flex-row justify-center w-full">
       <div className="bg-white overflow-hidden w-[1440px] h-[1024px]">
         <div className="relative w-[3370px] h-[1665px] top-[-134px] left-[-1811px]">
-          <div className="absolute w-[1200px] h-[800px] top-[246px] left-[1931px] bg-[#9999ff] overflow-hidden shadow-[inset_15px_-6px_34px_#ffffff40,15px_35px_56px_#00000040]">
+          <div  className="absolute w-[1200px] h-[800px] top-[246px] left-[1931px] bg-[#9999ff] overflow-hidden shadow-[inset_15px_-6px_34px_#ffffff40,15px_35px_56px_#00000040]">
             <div className="relative w-[1288px] h-[867px] top-[-67px]">
               <div className="w-[534px] h-[467px] left-[754px] bg-[#9999ff] rounded-[267px/233.5px] absolute top-0" />
               <div className="w-[534px] h-[467px] left-[754px] bg-[#e15a97] rounded-[267px/233.5px] blur-[150px] absolute top-0" />
@@ -66,19 +66,19 @@ export default function Login() {
             <div className="relative w-fit [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[24px] tracking-[0] leading-[normal]">
               Username
             </div>
-            <div className="relative w-[346px] h-[75px] bg-[#dfdfff]" />
+            <input type="text" className="relative w-[346px] h-[75px] bg-[#dfdfff]" />
             <div className="relative w-fit [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[24px] tracking-[0] leading-[normal]">
               Password
             </div>
-            <div className="relative w-[346px] h-[75px] bg-[#dfdfff]" />
+            <input className="relative w-[346px] h-[75px] bg-[#dfdfff]" />
             <Link
               to="/consultant/timesheet"
               className="all-[unset] box-border relative w-[256px] h-[56px]"
             >
               <div className="relative w-[254px] h-[56px] bg-[url(/rectangle-40.svg)] bg-[100%_100%]">
-                <div className="absolute top-[9px] left-[94px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-white text-[24px] tracking-[0] leading-[normal]">
+                <button type="submit" className="absolute top-[9px] left-[94px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-white text-[24px] tracking-[0] leading-[normal]">
                   Login
-                </div>
+                </button>
               </div>
             </Link>
           </div>
