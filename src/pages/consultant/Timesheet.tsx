@@ -1,14 +1,13 @@
 import React from "react";
 // import { BsCalendar2Check } from "./BsCalendar2Check";
-// import { BsInbox } from "./BsInbox";
-// import { BsSliders } from "./BsSliders";
-// import { BsTable } from "./BsTable";
-// import { BsTags } from "./BsTags";
 // import { PatternDiagonal } from "./PatternDiagonal";
 
 export default function Timesheet() {
   return (
     <div className="w-[1440px] h-[1024px] bg-white">
+      <div className="timesheet">
+        <h1>Timesheet</h1>
+      </div>
       <div className="relative h-[1133px] top-[-109px]">
         <img
           className="absolute w-[1052px] h-[534px] top-[599px] left-0"
