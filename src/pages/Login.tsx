@@ -9,7 +9,7 @@ export default function Login() {
       <div className="bg-white overflow-hidden w-[90rem] h-[64rem]">
         <div className="relative w-[210.625rem] h-[104.063rem] top-[-8.375rem] left-[-113.188rem]">
           {/* Purple Box */}
-          <div className="resize relative w-[21.875rem] h-[34.375rem] md:w-[75rem] md:h-[50rem] top-[15.375rem] left-[120.688rem] bg-[#9999ff] overflow-hidden shadow-[inset_0.938rem_-0.375rem_2.125rem_#ffffff40,0.938rem_2.188rem_3.5rem_#00000040]">
+          <div className="relative w-[21.875rem] h-[34.375rem] md:w-[75rem] md:h-[50rem] top-[15.375rem] left-[120.688rem] bg-[#9999ff] overflow-hidden shadow-[inset_0.938rem_-0.375rem_2.125rem_#ffffff40,0.938rem_2.188rem_3.5rem_#00000040]">
             {/* N/A */}
             <div className="relative w-[80.5rem] h-[54.188rem] top-[-4.188rem]">
               {/* N/A */}
