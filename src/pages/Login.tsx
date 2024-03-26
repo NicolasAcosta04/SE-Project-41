@@ -14,6 +14,7 @@ export default function Login() {
     // Outer Flex Box
     <div className="outer-flex-box">
       {/* Screen */}
+
       <div className="screen">
         <div className="screen2">
           {/* Purple Box */}

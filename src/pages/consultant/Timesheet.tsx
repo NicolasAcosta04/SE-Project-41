@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import { BsCalendar2Check } from "./BsCalendar2Check";
 // import { PatternDiagonal } from "./PatternDiagonal";
 
@@ -241,12 +242,15 @@ export default function Timesheet() {
             </div>
           </div>
           <div className="absolute w-[140px] h-[48px] top-[731px] left-[1029px] bg-[url(/rectangle-37.svg)] bg-[100%_100%]">
-            <div className="absolute w-[118px] h-[31px] top-[7px] left-[10px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[20px] text-center tracking-[0] leading-[normal]">
-              Log hours
+          <Link
+                to="/consultant/loghours"
+                className="btn btn-outline-primary btn-lg"
+              >
+                Log Hours
+            </Link>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }

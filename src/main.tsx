@@ -5,6 +5,7 @@ import Inbox from "./pages/consultant/Inbox";
 import Timesheet from "./pages/consultant/Timesheet";
 import Tags from "./pages/consultant/Tags";
 import Settings from "./pages/consultant/Settings";
+import LogHours from "./pages/consultant/loghours";
 
 import "bootstrap/dist/css/bootstrap.css";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/consultant/settings",
         element: <Settings />,
+      },
+      {
+        path: "/consultant/loghours",
+        element: <LogHours />,
       },
     ],
   },
